@@ -176,6 +176,7 @@ body:hover .cursor-dot, body:hover .cursor-outline {
 
 .hero-title .highlight {
     color: var(--accent-color);
+    justify-content: center;
 }
 
 .hero-subtitle {
@@ -319,8 +320,15 @@ body:hover .cursor-dot, body:hover .cursor-outline {
 .tentang-teks .bio-data {
     font-family: 'Lora', serif;
     font-weight: bold;
-    font-size: 1.05rem; /* Sedikit lebih besar untuk keterbacaan */
+    font-size: 1.05rem;
     color: #444
+}
+
+.tentang-teks .desk{
+    font-weight: 300; font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    justify-content: flex-end;
 }
 
 .highlight {
